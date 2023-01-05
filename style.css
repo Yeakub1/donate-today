@@ -1,0 +1,217 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+hr {
+    width: 1000px;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #E74C3C;
+    border: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* header-section */
+.header-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hero.png);
+    background-color: rgb(230, 227, 223);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-hero-title {
+    font-weight: 900;
+    font-size: 46px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.header-hero-dechriptiom {
+    width: 550px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.header-text,
+.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Start main section */
+.main-header-section {
+    text-align: center;
+    width: 900px;
+    margin-top: 100px;
+}
+
+.header-title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.title-dechription {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+/* Taka section */
+.taka-section {
+    display: flex;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.taka-section p {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+input {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.taka-btn {
+    margin-top: 30px;
+}
+
+.donate,
+.taka-btn {
+    text-align: center;
+}
+
+/* donate Plan */
+.flex-section {
+    display: flex;
+}
+
+.flex-section img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.flex-col {
+    margin-top: 50px;
+    width: 400px;
+    padding: 20px 0 20px 10px;
+}
+
+.flex-col h3 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    background-color: #CCD1D1;
+}
+
+.col-2 {
+    background-color: #F6DDCC;
+}
+
+.col-3 {
+    background-color: #E6B0AA;
+}
+
+/* donate time */
+.donate-time {
+    margin-top: 100px;
+    display: flex;
+}
+
+.donante-img img {
+    height: 500px;
+    width: 500px;
+}
+
+.donante-text button {
+    margin-left: 0;
+    width: 250px;
+}
+
+.donante-text {
+    margin-top: 30px;
+}
+
+.donante-text,
+.title-dechription p {
+    width: 600px;
+}
+
+/* contact from */
+.form-control {
+    text-align: center;
+}
+
+.form-control input {
+    border: 0;
+    background-color: #CCD1D1;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    padding: 0 17px;
+    border-radius: 5px;
+
+}
+
+.form-control,
+.btn {
+    font-size: 20px;
+    margin-left: -6px;
+    height: 60px;
+}
+
+/* footer section */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+footer h3 {
+    font-style: italic;
+    color: #E74C3C;
+}
